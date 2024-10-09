@@ -19,7 +19,6 @@ body {
     justify-content: space-between;
     list-style: none;
     padding: 20px;
-    
 }
 
 #navbar ul li {
@@ -34,11 +33,14 @@ body {
 
 h1 {
     padding: 20px;
-    color: aliceblue;
+    color: rgb(214, 214, 214);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-.gallery-item {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 200px;
+    width: 200px;
 }
