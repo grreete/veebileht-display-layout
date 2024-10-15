@@ -53,6 +53,11 @@ p {
     grid-template-columns: 1fr 300px;
 }
 
+#section2 {
+    display: flex;
+    flex-direction: column;
+}
+
 .pealkiri {
     background-color: rgb(204, 228, 248);
     padding: 40px;
@@ -62,6 +67,20 @@ p {
     padding: 40px;
     list-style-type: none;
     background-color: rgb(248, 200, 219);
+}
+
+.pealkiri2 {
+    background-color: rgb(232, 213, 236);
+    padding: 40px;
+}
+
+.kulgriba2 {
+    display: flex;
+    padding: 40px;
+    list-style-type: none;
+    background-color: rgb(189, 162, 171);
+    align-items: center;
+    justify-content: center;
 }
 
 .kulgriba ul {
@@ -94,6 +113,30 @@ img {
     object-fit: cover;
 }
 
+/* png kassipilt */
+.kassipilt {
+    display: flex;
+    justify-content: center;
+}
+
+.kass10 {
+    height: 300px;
+    width: 300px; 
+    padding: 20px;
+}
+
+/* box */
+.box {
+    height: 120px;
+    width: 150px;
+    border: solid 0.5px #ccc;
+    background-color: rgb(233, 241, 197);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
 /* footer */
 footer {
     display: flex;
@@ -102,6 +145,7 @@ footer {
     gap: 20px;
     padding: 20px;
     border-top: 1px solid #ccc;
+    background-color: rgb(215, 228, 228);
 }
 
 .social {
